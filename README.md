@@ -19,9 +19,19 @@ Functional enrichment (GO and GSEA)
 
 Tools Used
 
-Seurat
-
-clusterProfiler
-
-
-tidyverse
+library(Seurat)
+library(Matrix)
+library(devtools)
+library(dplyr)
+library(ggplot2)
+library(readxl)
+library(stringr)
+library(openxlsx)
+library(pheatmap)
+library(RColorBrewer)
+library(patchwork)
+library(BiocParallel)
+library(clusterProfiler)
+library(org.Mm.eg.db)
+library(enrichR)
+library(ReactomePA)
